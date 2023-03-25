@@ -14,13 +14,13 @@ include './database/koneksi.php';
     <div class="container" >
 
      <!-- Card Body -->
-     <div class="row justify-content-center">
+     <div class="row justify-content-center"style="margin-top:88px;">
             <div class="col-xl-6 col-lg-10 col-md-9">
                 <div class="card o-hidden border-0 shadow-lg my-5">
                             <div class="col-lg-0">
                                 <div class="p-4">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Welcome</h1>
+                                        <h1 class="h4 text-gray-900 mb-4"style="font-size:30px;margin-top:12px;margin-bottom:12px;">Selamat Datang</h1>
                                     </div>
 
                                     <!-- form login -->
@@ -37,7 +37,7 @@ include './database/koneksi.php';
                                                 <label class="custom-control-label" for="customCheck">Remember Me</label>
                                             </div>
                                         </div>
-                                             <button class="btn btn-primary btn-user btn-block">Login</button>
+                                             <button class="btn btn-primary btn-user btn-block"style="font-size:16px;">Login</button>
                                     </form>
                                 </div>
                             </div>
