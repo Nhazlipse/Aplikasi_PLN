@@ -301,23 +301,24 @@ include '../../layout/header.php';
                                     <thead>
                                     <tr>
         <th class="text-center">No<br><br></th>
-        <th class="text-center">Nama Pemilik</th>
-        <th class="text-center">Uraian Masalah</th>
-        <th class="text-center">Jalan</th>
-        <th class="text-center">Kelurahan</th>
-        <th class="text-center">Kecamatan</th>
-        <th class="text-center">Unit Pengolah</th>
-        <th class="text-center">No. Rak</th>
-        <th class="text-center">No. Box</th>
-        <th class="text-center">Kode Klas</th>
-        <th class="text-center">No. Urut</th>
-        <th class="text-center">NIPA</th>
-        <th class="text-center">Tahun</th>
-        <th class="text-center">Keterangan</th>
-        <th class="text-center1">Action</th>
+        <th class="text-center">Nama Perusahaan</th>
+        <th class="text-center">Alamat Perusahaan</th>
+        <th class="text-center">No Fax</th>
+        <th class="text-center">No Telp</th>
+        <th class="text-center">Alamat Email</th>
+        <th class="text-center">Direktur</th>
+        <th class="text-center">No Rekening</th>
+        <th class="text-center">Bank</th>
+        <th class="text-center">Kantor Bank</th>
+        <th class="text-center">Atas Nama</th>
+        <th class="text-center">Ket Akta Pendirian</th>
+        <th class="text-center">No DPT</th>
+        <th class="text-center">No SAPV</th>
+        <th class="text-center">No NPWP</th>
+        <th class="text-center">Action</th>
     </tr>
 </thead>
-<?php require 'panggil-dataarsip.php';?>
+<?php require 'panggil_data_vendor.php';?>
 </table>
 </div>
                         </div>
