@@ -11,13 +11,20 @@ $koneksi = new koneksi();
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
     // Get data from form
-    $nama_pemilik = $_POST['nama_pemilik'];
-    $keterangan_pinjam = $_POST['keterangan_pinjam'];
-    $peminjam = $_POST['peminjam'];
-    $no_identitas = $_POST['no_identitas'];
-    $tgl = $_POST['tanggal_pinjam'];
-    $jumlah = $_POST['jumlah'];
-    $status = $_POST['status'];
+    $Nama_Perusahaan = $_POST['Nama_Perusahaan'];
+    $Alamat_Perusahaan = $_POST['Alamat_Perusahaan'];
+    $NoFax = $_POST['NoFax'];
+    $NoTelp = $_POST['NoTelp'];
+    $Alamat_Email = $_POST['Alamat_Email'];
+    $Direktur = $_POST['Direktur'];
+    $NoRekening = $_POST['NoRekening'];
+    $Bank = $_POST['Bank'];
+    $Kantor_Bank = $_POST['Kantor_Bank'];
+    $Atas_Nama = $_POST['Atas_Nama'];
+    $Ket_Akta_Pendirian = $_POST['Ket_Akta_Pendirian'];
+    $NoDPT = $_POST['NoDPT'];
+    $NoSAPV = $_POST['NoSAPV'];
+    $NoNPWP = $_POST['NoNPWP'];
 
 
     // Check if connection is successful
@@ -26,12 +33,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Prepare SQL query
-    $query = "INSERT INTO tb_transaksi (nama_pemilik, keterangan_pinjam, peminjam, no_identitas, tanggal_pinjam, jumlah, status) 
-            VALUES ('$nama_pemilik', '$keterangan_pinjam', '$peminjam', '$no_identitas', '$tgl', '$jumlah', '$status')";
+    $query = "INSERT INTO tb_transaksi (Nama_Perusahaan, Alamat_Perusahaan, NoFax, NoTelp, Alamat_Email, Direktur, NoRekening, Bank, Kantor_Bank, Atas_Nama, Ket_Akta_Pendirian, NoDPT, NoSAPV, NoNPWP) 
+            VALUES ('$Nama_Perusahaan', '$Alamat_Perusahaan', '$NoFax', '$NoTelp', '$Alamat_Email', '$Direktur', '$NoRekening', '$Bank', '$Kantor_Bank', '$Atas_Nama', '$Ket_Akta_Pendirian', '$NoDPT', '$NoSAPV', '$NoNPWP')";
     $koneksi->query($query);
 
     // return a success message
     echo "<script>alert('Data berhasil disimpan.');document.location='?';</script>";
-    header("location: pinjaman.php");
+    header("location: vendor.php");
 }
 ?>
