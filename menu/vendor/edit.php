@@ -154,7 +154,7 @@ include '../../layout/header.php';
 <div class="card-body">
     <div class="row">
         <div class="col-md-12">
-        <form action="operasi_edit_data.php" method="POST">
+        <form action="operasi_editvendor.php" method="POST">
                 <div class="form-group">
                     <label for="id_vendor">ID</label>
                     <input type="text" class="form-control" name="id_vendor"
@@ -236,8 +236,8 @@ include '../../layout/header.php';
 				Submit
 				</button>
 				<button type="submit" action="vendor.php" class="btn btn-danger">
-				Cancel
-				</button>
+                    Cancel
+                </button>
 				</form>
                 </div>
     </div>

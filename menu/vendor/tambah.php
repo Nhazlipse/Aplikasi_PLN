@@ -215,7 +215,7 @@ include './layout/header.php';
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">NoSAPV:</label>
-                                            <input type="text" class="form-control" id="NoSAPV" name="NoSAPV" >
+                                            <input type="number" class="form-control" id="NoSAPV" name="NoSAPV" >
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">NoNPWP:</label>
@@ -223,7 +223,7 @@ include './layout/header.php';
                                         </div>
 
                                         <button type="submit" class="btn btn-primary">Submit</button>
-                                        <a href="pinjaman.php" class="btn btn-danger">Cancel</a>
+                                        <a href="vendor.php" class="btn btn-danger">Cancel</a>
                                     </form>
                                 </div>
 

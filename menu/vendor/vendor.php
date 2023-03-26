@@ -180,6 +180,7 @@ include '../../layout/header.php';
                             <?php require 'panggil_data_vendor.php';?>
                             </table>
                             </div>
+                            <?php require 'next-page.php';?>
                     </div>
                 </div>
 

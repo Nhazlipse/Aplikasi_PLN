@@ -32,8 +32,8 @@ $koneksi = new koneksi();
 $koneksi->query($query);
 
 if ($koneksi) {
-    header("location:buku.php");
+    header("location:vendor.php");
 } else {
     // Notification Using Script
-    echo "<script>alert('Data Gagal Diupdate');window.location='arsip.php';</script>";
+    echo "<script>alert('Data Gagal Diupdate');window.location='vendor.php';</script>";
 }
