@@ -1,7 +1,7 @@
 <!-- session agar (bukan admin) tidak dapat mengakses file admin -->
 <?php
 // Validasi Login agar file tidak dapat diakses sebelum melakukan Login Terlebih dahulu
-require_once '../../Database/koneksi.php';
+require_once '../../database/koneksi.php';
 
 use database\koneksi;
 
@@ -13,8 +13,8 @@ $koneksi = new koneksi();
 $koneksi->query($sql);
 
 if ($koneksi) {
-    header("location:buku.php");
+    header("location:vendor.php");
 } else {
     // Notification Using Script
-    echo "<script>alert('Data Gagal Diupdate');window.location='buku.php';</script>";
+    echo "<script>alert('Data Gagal Diupdate');window.location='vendor.php';</script>";
 }
