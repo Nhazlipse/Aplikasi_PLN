@@ -1,17 +1,10 @@
 <!-- deklarasikan dan panggil koneksi database untuk memanggil data dari tb_dataarsip-->
 <tbody>
 <?php
-$record_per_page = 10;
-if(isset($_GET["page"])) {
-$page = $_GET["page"];
-} else {
-$page = 1;
-}
 // untuk menampilkan data yang di tampilkan pada setiap pagenya adalah 10 data menggunakan fungsi sql (DESC LIMIT)
- $start_from = ($page-1) * $record_per_page;
  $query = "SELECT * FROM t_vendor ORDER BY id_vendor";
  $tampil = $koneksi->query($query);
- $no = $start_from + 1;
+ $no = 1;
 while ($data = mysqli_fetch_array($tampil)) {
 ?>
 

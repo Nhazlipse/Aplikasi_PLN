@@ -143,7 +143,7 @@ aria-expanded="true" aria-controls="collapseTwo">
             <!-- Tombol Tambah Data -->
             <div class="tambahdata">
                 <a href="tambah_data_pinjaman.php" class="btn btn-primary">Tambah Data</a><br><br>
-</div>
+                </div>
                 <!-- buat kolom -->
                             <div class="table-responsive">
                 <!-- buat kolom -->
@@ -171,9 +171,9 @@ aria-expanded="true" aria-controls="collapseTwo">
                             </thead>
                             <?php require 'panggil_data_vendor.php';?>
                             </table>
+                            <br>
                             </div>
                     </div>
-<?php require 'next-page.php';?>
   </div>
 </div>
 
