@@ -161,7 +161,7 @@ include './layout/header.php';
 
                                 <!-- Tambah Data Arsip Form -->
                                 <div class="container">
-                                    <form action="proses_tambah_data_pinjaman.php" method="post">
+                                    <form action="proses_tambah_data.php" method="post">
 
                                         <div class="form-group">
                                             <label for="judul">Nama Perusahaan:</label>
@@ -187,11 +187,6 @@ include './layout/header.php';
                                             <label for="judul">Alamat_Email:</label>
                                             <input type="text" class="form-control" id="Alamat_Email"
                                                 name="Alamat_Email" >
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="judul">Tanggal Pinjam:</label>
-                                            <input type="date" class="form-control" id="tanggal_pinjam"
-                                                name="tanggal_pinjam" >
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">Direktur:</label>

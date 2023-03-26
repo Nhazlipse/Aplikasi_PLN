@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     // Prepare SQL query
-    $query = "INSERT INTO tb_transaksi (Nama_Perusahaan, Alamat_Perusahaan, NoFax, NoTelp, Alamat_Email, Direktur, NoRekening, Bank, Kantor_Bank, Atas_Nama, Ket_Akta_Pendirian, NoDPT, NoSAPV, NoNPWP) 
+    $query = "INSERT INTO t_vendor (Nama_Perusahaan, Alamat_Perusahaan, NoFax, NoTelp, Alamat_Email, Direktur, NoRekening, Bank, Kantor_Bank, Atas_Nama, Ket_Akta_Pendirian, NoDPT, NoSAPV, NoNPWP) 
             VALUES ('$Nama_Perusahaan', '$Alamat_Perusahaan', '$NoFax', '$NoTelp', '$Alamat_Email', '$Direktur', '$NoRekening', '$Bank', '$Kantor_Bank', '$Atas_Nama', '$Ket_Akta_Pendirian', '$NoDPT', '$NoSAPV', '$NoNPWP')";
     $koneksi->query($query);
 
