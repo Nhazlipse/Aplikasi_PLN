@@ -21,7 +21,22 @@ include '../../layout/header.php';
     <link href="../../assets/css/sb-admin-2.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css">
+    <style>
+        .container1 {
+            padding-left: 0;
+            padding-right: 0;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
 
+        @media screen and (min-width: 768px) {
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -137,26 +152,24 @@ include '../../layout/header.php';
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+                <!-- AWAL DARI ISI KONTEN -->
+<div class="container-fluid">
 
-<!-- Page Heading -->
-<h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                        For more information about DataTables, please visit the <a target="_blank"
-                            href="https://datatables.net">official DataTables documentation</a>.</p>
 
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Data Vendor</h6>
-                        </div>
-                        <div class="card-body">
+<!-- AWAL ISI DATA PINJAMAN -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3 text-center">
+            <img src="../../assets/img/datapinjam.png"style="width:23%;">
+        </div>
 
-                    <!-- Tombol Tambah Data -->
-                    <div class="tambahdata">
-                    <a href="tambah.php" class="btn btn-primary">Tambah Data</a><br><br>
+        <!-- CARD BODY -->
+        <div class="card-body">
 
+            <!-- Tombol Tambah Data -->
+            <div class="tambahdata">
+                <a href="tambah_data_pinjaman.php" class="btn btn-primary">Tambah Data</a><br><br>
+</div>
+                <!-- buat kolom -->
                             <div class="table-responsive">
                             <table id="example" class="table table-striped table-bordered" style="width:100%">
                                     <thead>
@@ -182,7 +195,6 @@ include '../../layout/header.php';
                             <?php require 'panggil_data_vendor.php';?>
                             </table>
                             </div>
-                            <?php require 'next-page.php';?>
                     </div>
                 </div>
 
@@ -197,30 +209,33 @@ include '../../layout/header.php';
     </div>
     <!-- End of Page Wrapper -->
 
-    <!-- Scroll to Top Button-->
+    <!-- TOMBOL SCROLL KE ATAS-->
     <a class="scroll-to-top rounded" href="#page-top">
-        <i class="fas fa-angle-up"></i>
-    </a>
+            <i class="fas fa-angle-up"></i>
+        </a>
 
-    <!-- Logout Modal-->
-    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+        <!-- LOGOUT PANEL-->
+        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apakah Anda yakin ingin
+                            keluar?</h5>
+                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">Pilih "Logout" Jika kamu ingin keluar dari session.
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" type="button"
+                            data-dismiss="modal">Cancel</button>
+                        <a class="btn btn-danger" href="logout.php">Logout</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Bootstrap core JavaScript-->
     <script src="../../assets/vendor/jquery/jquery.min.js"></script>
@@ -238,7 +253,7 @@ include '../../layout/header.php';
     <!-- Page level custom scripts -->
     <script src="../../assets/js/demo/chart-area-demo.js"></script>
     <script src="../../assets/js/demo/chart-pie-demo.js"></script>
-    
+
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js"></script>
