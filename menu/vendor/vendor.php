@@ -19,6 +19,8 @@ include '../../layout/header.php';
 
     <!-- Custom styles for this template-->
     <link href="../../assets/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
+    <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css">
 
 </head>
 
@@ -138,10 +140,16 @@ include '../../layout/header.php';
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Tables</h1>
+                    <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
+                        For more information about DataTables, please visit the <a target="_blank"
+                            href="https://datatables.net">official DataTables documentation</a>.</p>
+
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Di ISI LOGO DATA VENDOR AE IKI FORMAT FOTO</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Data Vendor</h6>
                         </div>
                         <div class="card-body">
 
@@ -150,9 +158,7 @@ include '../../layout/header.php';
                     <a href="tambah.php" class="btn btn-primary">Tambah Data</a><br><br>
 
                             <div class="table-responsive">
-                            <table class="table table-bordered font-weight-normal"
-                        style='monospace; font-size:90%' width="160%"
-                        cellspacing="0">
+                            <table id="example" class="table table-striped table-bordered" style="width:100%">
                                     <thead>
                                     <tr>
                                     <th class="text-center">No<br><br></th>
@@ -232,6 +238,14 @@ include '../../layout/header.php';
     <!-- Page level custom scripts -->
     <script src="../../assets/js/demo/chart-area-demo.js"></script>
     <script src="../../assets/js/demo/chart-pie-demo.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap4.min.js"></script>
+    <script>$(document).ready(function () {
+    $('#example').DataTable();
+});</script>
+
 </body>
 
 </html>
