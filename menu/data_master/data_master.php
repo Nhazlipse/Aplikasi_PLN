@@ -148,7 +148,7 @@ aria-expanded="true" aria-controls="collapseTwo">
                 <table id="example" class="table table-striped table-bordered" style="width:100%">
                                     <thead>
                                     <tr>
-                                    <th class="text-center">No<br><br></th>
+                                    <th class="text-center">Action<br><br></th>
                                     <th class="text-center">Jenis_Pengadaan</th>
                                     <th class="text-center">NoRKS</th>
                                     <th class="text-center">Tanggal</th>
@@ -195,6 +195,8 @@ aria-expanded="true" aria-controls="collapseTwo">
                                     <th class="text-center">NoSK2</th>
                                     <th class="text-center">TglSK2</th>
                                     <th class="text-center">Lokasi_Pekerjaan</th>
+                                    <th class="text-center">No</th>
+
                                 </tr>
                             </thead>
                             <?php require 'panggil_data_master.php';?>

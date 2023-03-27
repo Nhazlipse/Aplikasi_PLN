@@ -11,7 +11,18 @@ while ($data = mysqli_fetch_array($tampil)) {
 
 <!-- mendeskripsikan data sesuai pada kolom yang di perlukan -->
     <tr>
-        <td class="text-center"><?= $no++ ?></td>
+    <td>
+
+<!-- buat tombol edit hapus -->
+<a href="edit.php?id_master=<?= $data['id_master'] ?>"
+    class="btn btn-warning btn-sm d-sm-inline-block mb-3 mb-sm-1"><i
+        class="fa fa-edit"></i>Edit</a>
+<a href="hapusdata.php?id_master=<?= $data['id_master'] ?>"
+    class="btn btn-danger btn-sm d-sm-inline-block mb-3 mb-sm-1"
+    onclick="return confirm('Yakin ingin menghapus data ini?')"><i
+        class="fa fa-trash"></i>Hapus</a>
+
+    </td>
         <td><?= $data['Jenis_Pengadaan'] ?></td>
         <td><?= $data['NoRKS'] ?></td>
         <td><?= $data['Tanggal'] ?></td>
@@ -25,6 +36,7 @@ while ($data = mysqli_fetch_array($tampil)) {
         <td><?= $data['NoSPKPihakI'] ?></td>
         <td><?= $data['Tgl_TTD_Kontrak'] ?></td>
         <td><?= $data['tglblnthn'] ?></td>
+        <td><?= $data['tglblnthn2'] ?></td>
         <td><?= $data['Hari'] ?></td>
         <td><?= $data['Tanggal2'] ?></td>
         <td><?= $data['Bulan'] ?></td>
@@ -57,18 +69,9 @@ while ($data = mysqli_fetch_array($tampil)) {
         <td><?= $data['NoSK2'] ?></td>
         <td><?= $data['TglSK2'] ?></td>
         <td><?= $data['Lokasi_Pekerjaan'] ?></td>
-        <td>
+        <td class="text-center"><?= $no++ ?></td>
 
-    <!-- buat tombol edit hapus -->
-    <a href="edit.php?id_master=<?= $data['id_master'] ?>"
-        class="btn btn-warning btn-sm d-sm-inline-block mb-3 mb-sm-1"><i
-            class="fa fa-edit"></i>Edit</a>
-    <a href="hapusdata.php?id_master=<?= $data['id_master'] ?>"
-        class="btn btn-danger btn-sm d-sm-inline-block mb-3 mb-sm-1"
-        onclick="return confirm('Yakin ingin menghapus data ini?')"><i
-            class="fa fa-trash"></i>Hapus</a>
-
-        </td>
+        
     </tr>
 <?php } ?>
 </tbody>
