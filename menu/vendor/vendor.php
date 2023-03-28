@@ -9,7 +9,7 @@ include 'layout/header.php';
 
 <head>
 
-<title>Arsip Online - Kediri</title>
+<title>ESPK</title>
 <link rel="stylesheet" href="layout/css/style.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css">
     <link href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css">
@@ -21,19 +21,19 @@ include 'layout/header.php';
 <div id="wrapper">
 
 <!-- Sidebar -->
-<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#2b2b2b;">
+<ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar" style="background-color:#039677;">
 
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="../../dashboard.php"style="margin-top:68px;">
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="../../dashboard.php"style="margin-top:69px;margin-right:7px;">
 <div class="sidebar-brand-icon text-center">
-<img src="../../assets/img/arsip.png" width="77%">
+<img src="../../assets/img/logo.png" width="77%">
 </div>
 </a>
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active"style="margin-top:68px;">
-<a class="nav-link" href="../dashboard.php">
+<a class="nav-link" href="../../dashboard.php">
 <i class="fas fa-fw fa-tachometer-alt"></i>
 <span>Dashboard</span></a>
 </li>
@@ -50,8 +50,8 @@ Interface
 <li class="nav-item">
 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
 aria-expanded="true" aria-controls="collapseTwo">
-<i class="fas fa-fw fa-table"></i>
-<span>Data Arsip</span>
+<i class="fas fa-fw fa-cog"></i>
+<span>Menu</span>
 </a>
 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
 <div class="bg-white py-2 collapse-inner rounded">
@@ -88,11 +88,6 @@ aria-expanded="true" aria-controls="collapseTwo">
     <i class="fa fa-bars"></i>
 </button>
 
-<!-- Judul Menu -->
-<form
-    class="d-none d-sm-inline-block form-inline mr-auto ml-md-0 my-2 my-md-0 mw-100 navbar-search">
-    <img src="../../assets/img/tulisan.png" width="36%">
-</form>
 
 <!-- NAVIGASI BAR ATAS BAGIAN HEADER -->
 <ul class="navbar-nav ml-auto">
@@ -102,7 +97,7 @@ aria-expanded="true" aria-controls="collapseTwo">
     <li class="nav-item dropdown no-arrow">
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Administrasi</span>
+            <span class="mr-2 d-none d-lg-inline text-gray-600 small">Selamat Datang !</span>
             <img class="img-profile rounded-circle" src="../../assets/img/undraw_profile.svg">
         </a>
         <!-- ANIMASI TOMBOL LOGOUT (DROPDOWN) BAGIAN ADMINISTRASI -->
@@ -131,7 +126,7 @@ aria-expanded="true" aria-controls="collapseTwo">
 <!-- AWAL ISI DATA PINJAMAN -->
     <div class="card shadow mb-4">
         <div class="card-header py-3 text-center">
-            <img src="../../assets/img/datapinjam.png"style="width:23%;">
+            <img src="../../assets/img/vend.png"style="width:17%;">
         </div>
 
         <!-- CARD BODY -->

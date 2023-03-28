@@ -9,7 +9,7 @@ include './layout/header.php';
 
 <head>
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>ESPK</title>
 
     <!-- Custom fonts for this template-->
     <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -64,7 +64,7 @@ include './layout/header.php';
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Pilih Menu:</h6>
                         <a class="collapse-item" href="menu/data_master/data_master.php">Data Master</a>
-                        <a class="collapse-item" href="menu/vendor/vendor.php">Vendor</a>
+                        <a class="collapse-item" href="menu/vendor/vendor.php">Data Vendor</a>
                     </div>
                 </div>
             </li>
@@ -94,10 +94,6 @@ include './layout/header.php';
                         <i class="fa fa-bars"></i>
                     </button>
 
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-0 my-2 my-md-0 mw-100 navbar-search">
-                        <img src="assets/img/dash.png" width="33%" style="margin-left:5px;">
-                    </form>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
