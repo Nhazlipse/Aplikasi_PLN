@@ -23,6 +23,7 @@ while ($data = mysqli_fetch_array($tampil)) {
         class="fa fa-trash"></i>Hapus</a>
 
     </td>
+    <td class="text-center"><?= $no++ ?></td>
         <td><?= $data['Jenis_Pengadaan'] ?></td>
         <td><?= $data['NoRKS'] ?></td>
         <td><?= $data['Tanggal'] ?></td>
@@ -69,7 +70,7 @@ while ($data = mysqli_fetch_array($tampil)) {
         <td><?= $data['NoSK2'] ?></td>
         <td><?= $data['TglSK2'] ?></td>
         <td><?= $data['Lokasi_Pekerjaan'] ?></td>
-        <td class="text-center"><?= $no++ ?></td>
+        
 
         
     </tr>
