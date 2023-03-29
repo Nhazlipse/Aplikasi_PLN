@@ -7,7 +7,6 @@ use database\koneksi;
 $koneksi = new koneksi();
 
 // ambil nilai baris dan kolom dari form
-$baris = $_POST['baris'];
 $kolom = $_POST['kolom'];
 
 // buat objek PDF baru
