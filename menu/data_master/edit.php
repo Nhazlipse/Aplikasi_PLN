@@ -167,70 +167,236 @@ include '../../layout/header.php';
                          value="<?php echo $row['Nama_Perusahaan']; ?>">
                 </div>
                 <div class="form-group">
-                    <label for="Alamat_Perusahaan">Alamat_Perusahaan</label>
-                    <input type="text" class="form-control" name="Alamat_Perusahaan" id="Alamat_Perusahaan"
-                         value="<?php echo $row['Alamat_Perusahaan']; ?>">
+                    <label for="Jenis_Pengadaan">Jenis Pengadaan</label>
+                    <input type="text" class="form-control" name="Jenis_Pengadaan" id="Jenis_Pengadaan" value="<?php echo $row['Jenis_Pengadaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="NoRKS">No RKS</label>
+                    <input type="text" class="form-control" name="NoRKS" id="NoRKS" value="<?php echo $row['NoRKS']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Tanggal">Tanggal</label>
+                    <input type="text" class="form-control" name="Tanggal" id="Tanggal" value="<?php echo $row['Tanggal']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Jenis_Anggaran">Jenis Anggaran</label>
+                    <input type="text" class="form-control" name="Jenis_Anggaran" id="Jenis_Anggaran" value="<?php echo $row['Jenis_Anggaran']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Sumber_Dana">Sumber Dana</label>
+                    <input type="text" class="form-control" name="Sumber_Dana" id="Sumber_Dana" value="<?php echo $row['Sumber_Dana']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Tgl_Dana_Keluar">Tgl Dana Keluar</label>
+                    <input type="text" class="form-control" name="Tgl_Dana_Keluar" id="Tgl_Dana_Keluar" value="<?php echo $row['Tgl_Dana_Keluar']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Lama_Pelaksanaan_Pekerjaan">Lama Pelaksanaan Pekerjaan</label>
+                    <input type="text" class="form-control" name="Lama_Pelaksanaan_Pekerjaan" id="Lama_Pelaksanaan_Pekerjaan" value="<?php echo $row['Lama_Pelaksanaan_Pekerjaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Terbilang_Lama_Pelaksanaan_Pekerjaan">Terbilang Lama Pelaksanaan Pekerjaan</label>
+                    <input type="text" class="form-control" name="Terbilang_Lama_Pelaksanaan_Pekerjaan" id="Terbilang_Lama_Pelaksanaan_Pekerjaan" value="<?php echo $row['Terbilang_Lama_Pelaksanaan_Pekerjaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Satuan_Waktu">Satuan Waktu</label>
+                    <input type="text" class="form-control" name="Satuan_Waktu" id="Satuan_Waktu" value="<?php echo $row['Satuan_Waktu']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Tentang">Tentang</label>
+                    <input type="text" class="form-control" name="Tentang" id="Tentang" value="<?php echo $row['Tentang']; ?>">
+                </div>
+
+                <div class="form-group">
+                <label for="NoSPKPihakI">NoSPKPihakI</label>
+                <input type="text" class="form-control" name="NoSPKPihakI" id="NoSPKPihakI" value="<?php echo $row['NoSPKPihakI']; ?>">
                 </div>
                 <div class="form-group">
-                    <label for="NoFax">NoFax</label>
-                    <input type="text" class="form-control" name="NoFax" id="NoFax"
-                         value="<?php echo $row['NoFax']; ?>">
+                <label for="Tgl_TTD_Kontrak">Tgl_TTD_Kontrak</label>
+                <input type="text" class="form-control" name="Tgl_TTD_Kontrak" id="Tgl_TTD_Kontrak" value="<?php echo $row['Tgl_TTD_Kontrak']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="NoTelp">NoTelp</label>
-                    <input type="NoTelp" class="form-control" name="NoTelp" id="NoTelp"
-                         value="<?php echo $row['NoTelp']; ?>">
+                <div class="form-group">
+                <label for="tglblnthn">tglblnthn</label>
+                <input type="text" class="form-control" name="tglblnthn" id="tglblnthn" value="<?php echo $row['tglblnthn']; ?>">
                 </div>
-				<div class="form-group">
+                <div class="form-group">
+                <label for="tglblnthn2">tglblnthn2</label>
+                <input type="text" class="form-control" name="tglblnthn2" id="tglblnthn2" value="<?php echo $row['tglblnthn2']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Hari">Hari</label>
+                <input type="text" class="form-control" name="Hari" id="Hari" value="<?php echo $row['Hari']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Tanggal2">Tanggal2</label>
+                <input type="text" class="form-control" name="Tanggal2" id="Tanggal2" value="<?php echo $row['Tanggal2']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Bulan">Bulan</label>
+                <input type="text" class="form-control" name="Bulan" id="Bulan" value="<?php echo $row['Bulan']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Tahun">Tahun</label>
+                <input type="text" class="form-control" name="Tahun" id="Tahun" value="<?php echo $row['Tahun']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Tahun_Kata">Tahun_Kata</label>
+                <input type="text" class="form-control" name="Tahun_Kata" id="Tahun_Kata" value="<?php echo $row['Tahun_Kata']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Tanggal_Berlaku">Tanggal_Berlaku</label>
+                <input type="text" class="form-control" name="Tanggal_Berlaku" id="Tanggal_Berlaku" value="<?php echo $row['Tanggal_Berlaku']; ?>">
+                </div>
+                <div class="form-group">
+                <label for="Tanggal_Berlaku_Kata">Tanggal_Berlaku_Kata</label>
+                <input type="text" class="form-control" name="Tanggal_Berlaku_Kata" id="Tanggal_Berlaku_Kata" value="<?php echo $row['Tanggal_Berlaku_Kata']; ?>">
+                </div>
+                <div class="form-group">
+                    <label for="NoSPPBJ">NoSPPBJ</label>
+                    <input type="text" class="form-control" name="NoSPPBJ" id="NoSPPBJ" value="<?php echo $row['NoSPPBJ']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Tanggal_SPPBJ">Tanggal_SPPBJ</label>
+                    <input type="text" class="form-control" name="Tanggal_SPPBJ" id="Tanggal_SPPBJ" value="<?php echo $row['Tanggal_SPPBJ']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Direksi_Pekerjaan">Direksi_Pekerjaan</label>
+                    <input type="text" class="form-control" name="Direksi_Pekerjaan" id="Direksi_Pekerjaan" value="<?php echo $row['Direksi_Pekerjaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Pengawas_Pekerjaan">Pengawas_Pekerjaan</label>
+                    <input type="text" class="form-control" name="Pengawas_Pekerjaan" id="Pengawas_Pekerjaan" value="<?php echo $row['Pengawas_Pekerjaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Nama_Perusahaan">Nama_Perusahaan</label>
+                    <input type="text" class="form-control" name="Nama_Perusahaan" id="Nama_Perusahaan" value="<?php echo $row['Nama_Perusahaan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Alamat_Perusahaan">Alamat_Perusahaan</label>
+                    <input type="text" class="form-control" name="Alamat_Perusahaan" id="Alamat_Perusahaan" value="<?php echo $row['Alamat_Perusahaan']; ?>">
+                </div>
+
+                <div class="form-group">
                     <label for="Alamat_Email">Alamat_Email</label>
-                    <input type="text" class="form-control" name="Alamat_Email" id="Alamat_Email"
-                         value="<?php echo $row['Alamat_Email']; ?>">
+                    <input type="text" class="form-control" name="Alamat_Email" id="Alamat_Email" value="<?php echo $row['Alamat_Email']; ?>">
                 </div>
-				<div class="form-group">
+
+                <div class="form-group">
                     <label for="Direktur">Direktur</label>
-                    <input type="text" class="form-control" name="Direktur" id="Direktur"
-                         value="<?php echo $row['Direktur']; ?>">
+                    <input type="text" class="form-control" name="Direktur" id="Direktur" value="<?php echo $row['Direktur']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="NoFax">NoRekening</label>
-                    <input type="text" class="form-control" name="NoRekening" id="NoRekening"
-                         value="<?php echo $row['NoRekening']; ?>">
+
+                <div class="form-group">
+                    <label for="NoRekening">NoRekening</label>
+                    <input type="text" class="form-control" name="NoRekening" id="NoRekening" value="<?php echo $row['NoRekening']; ?>">
                 </div>
-				<div class="form-group">
+
+                <div class="form-group">
                     <label for="Bank">Bank</label>
-                    <input type="text" class="form-control" name="Bank" id="Bank"
-                         value="<?php echo $row['Bank']; ?>">
+                    <input type="text" class="form-control" name="Bank" id="Bank" value="<?php echo $row['Bank']; ?>">
                 </div>
-				<div class="form-group">
+
+                <div class="form-group">
                     <label for="Kantor_Bank">Kantor_Bank</label>
-                    <input type="text" class="form-control" name="Kantor_Bank" id="Kantor_Bank"
-                         value="<?php echo $row['Kantor_Bank']; ?>">
+                    <input type="text" class="form-control" name="Kantor_Bank" id="Kantor_Bank" value="<?php echo $row['Kantor_Bank']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="Atas_Nama">Atas_Nama</label>
-                    <input type="text" class="form-control" name="Atas_Nama" id="Atas_Nama"
-                         value="<?php echo $row['Atas_Nama']; ?>">
+
+                <div class="form-group">
+                    <label for="Atas_Nama_Bank">Atas Nama Bank</label>
+                    <input type="text" class="form-control" name="Atas_Nama_Bank" id="Atas_Nama_Bank"
+                        value="<?php echo $row['Atas_Nama_Bank']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="Ket_Akta_Pendirian">Ket_Akta_Pendirian</label>
+
+                <div class="form-group">
+                    <label for="NoFax">Nomor Fax</label>
+                    <input type="text" class="form-control" name="NoFax" id="NoFax"
+                        value="<?php echo $row['NoFax']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="NoTelp">Nomor Telepon</label>
+                    <input type="text" class="form-control" name="NoTelp" id="NoTelp"
+                        value="<?php echo $row['NoTelp']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Ket_Akta_Pendirian">Keterangan Akta Pendirian</label>
                     <input type="text" class="form-control" name="Ket_Akta_Pendirian" id="Ket_Akta_Pendirian"
-                         value="<?php echo $row['Ket_Akta_Pendirian']; ?>">
+                        value="<?php echo $row['Ket_Akta_Pendirian']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="NoDPT">NoDPT</label>
-                    <input type="text" class="form-control" name="NoDPT" id="NoDPT"
-                         value="<?php echo $row['NoDPT']; ?>">
+
+                <div class="form-group">
+                    <label for="NoSurat_Negosiasi">Nomor Surat Negosiasi</label>
+                    <input type="text" class="form-control" name="NoSurat_Negosiasi" id="NoSurat_Negosiasi"
+                        value="<?php echo $row['NoSurat_Negosiasi']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="NoSAPV">NoSAPV</label>
-                    <input type="text" class="form-control" name="NoSAPV" id="NoSAPV"
-                         value="<?php echo $row['NoSAPV']; ?>">
+
+                <div class="form-group">
+                    <label for="Harga_Negosiasi">Harga Negosiasi</label>
+                    <input type="text" class="form-control" name="Harga_Negosiasi" id="Harga_Negosiasi"
+                        value="<?php echo $row['Harga_Negosiasi']; ?>">
                 </div>
-				<div class="form-group">
-                    <label for="NoNPWP">NoNPWP</label>
-                    <input type="text" class="form-control" name="NoNPWP" id="NoNPWP"
-                         value="<?php echo $row['NoNPWP']; ?>">
+
+                <div class="form-group">
+                    <label for="Terbilang">Terbilang</label>
+                    <input type="text" class="form-control" name="Terbilang" id="Terbilang"
+                        value="<?php echo $row['Terbilang']; ?>">
                 </div>
+
+                <div class="form-group">
+                    <label for="MUP3Kediri">MUP3 Kediri</label>
+                    <input type="text" class="form-control" name="MUP3Kediri" id="MUP3Kediri"
+                        value="<?php echo $row['MUP3Kediri']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="Jabatan">Jabatan</label>
+                    <input type="text" class="form-control" name="Jabatan" id="Jabatan"
+                        value="<?php echo $row['Jabatan']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="NoSK1">Nomor SK 1</label>
+                    <input type="text" class="form-control" name="NoSK1" id="NoSK1"
+                        value="<?php echo $row['NoSK1']; ?>">
+                </div>
+
+                <div class="form-group">
+                    <label for="TglSK1">TglSK1</label>
+                    <input type="text" class="form-control" name="TglSK1" id="TglSK1"
+                        value="<?php echo $row['TglSK1']; ?>">
+                </div>
+                <div class="form-group">
+                    <label for="NoSK2">NoSK2</label>
+                    <input type="text" class="form-control" name="NoSK2" id="NoSK2"
+                        value="<?php echo $row['NoSK2']; ?>">
+                </div>
+                <div class="form-group">
+                    <label for="TglSK2">TglSK2</label>
+                    <input type="text" class="form-control" name="TglSK2" id="TglSK2"
+                        value="<?php echo $row['TglSK2']; ?>">
+                </div>
+                <div class="form-group">
+                    <label for="Lokasi_Pekerjaan">Lokasi_Pekerjaan</label>
+                    <input type="text" class="form-control" name="Lokasi_Pekerjaan" id="Lokasi_Pekerjaan"
+                        value="<?php echo $row['Lokasi_Pekerjaan']; ?>">
+                </div>
+
+
 				<button type="submit" class="btn btn-primary" name="Update"
 				value="Update Data">
 				Submit

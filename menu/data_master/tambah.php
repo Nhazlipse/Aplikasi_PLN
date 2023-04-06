@@ -164,29 +164,122 @@ include './layout/header.php';
                                     <form action="proses_tambah_data.php" method="post">
 
                                         <div class="form-group">
-                                            <label for="judul">Nama Perusahaan:</label>
-                                            <input type="text" class="form-control" id="Nama_Perusahaan"
-                                                name="Nama_Perusahaan" >
+                                            <label for="judul">Jenis_Pengadaan</label>
+                                            <input type="text" class="form-control" id="Jenis_Pengadaan"
+                                                name="Jenis_Pengadaan" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">Alamat_Perusahaan:</label>
-                                            <input type="text" class="form-control" id="Alamat_Perusahaan"
-                                                name="Alamat_Perusahaan" >
+                                            <label for="judul">NoRKS:</label>
+                                            <input type="text" class="form-control" id="NoRKS"
+                                                name="NoRKS" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">NoFax:</label>
-                                            <input type="text" class="form-control" id="NoFax"
-                                                name="NoFax" >
+                                            <label for="judul">Tanggal:</label>
+                                            <input type="text" class="form-control" id="Tanggal"
+                                                name="Tanggal" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">NoTelp:</label>
-                                            <input type="text" class="form-control" id="NoTelp" name="NoTelp"
+                                            <label for="judul">Jenis_Anggaran:</label>
+                                            <input type="text" class="form-control" id="Jenis_Anggaran" name="Jenis_Anggaran"
                                                 >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">Alamat_Email:</label>
-                                            <input type="text" class="form-control" id="Alamat_Email"
+                                            <label for="judul">Sumber_Dana:</label>
+                                            <input type="text" class="form-control" id="Sumber_Dana"
                                                 name="Alamat_Email" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tgl_Dana_Keluar:</label>
+                                            <input type="text" class="form-control" id="Tgl_Dana_Keluar" name="Tgl_Dana_Keluar" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Lama_Pelaksanaan_Pekerjaan:</label>
+                                            <input type="text" class="form-control" id="Lama_Pelaksanaan_Pekerjaan" name="Lama_Pelaksanaan_Pekerjaan"
+                                                >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Terbilang_Lama_Pelaksanaan_Pekerjaan:</label>
+                                            <input type="text" class="form-control" id="Terbilang_Lama_Pelaksanaan_Pekerjaan" name="Terbilang_Lama_Pelaksanaan_Pekerjaan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Satuan_Waktu:</label>
+                                            <input type="text" class="form-control" id="Satuan_Waktu" name="Satuan_Waktu" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tentang:</label>
+                                            <input type="text" class="form-control" id="Tentang" name="Tentang" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoSPKPihakI:</label>
+                                            <input type="number" class="form-control" id="NoSPKPihakI" name="NoSPKPihakI" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tgl_TTD_Kontrak:</label>
+                                            <input type="text" class="form-control" id="Tgl_TTD_Kontrak" name="Tgl_TTD_Kontrak" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">tglblnthn:</label>
+                                            <input type="text" class="form-control" id="tglblnthn" name="tglblnthn" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">tglblnthn2:</label>
+                                            <input type="text" class="form-control" id="tglblnthn2" name="tglblnthn2" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Hari:</label>
+                                            <input type="text" class="form-control" id="Hari" name="Hari" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tanggal2:</label>
+                                            <input type="text" class="form-control" id="Tanggal2" name="Tanggal2" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Bulan:</label>
+                                            <input type="text" class="form-control" id="Bulan" name="Bulan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tahun:</label>
+                                            <input type="text" class="form-control" id="Tahun" name="Tahun" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tahun_Kata:</label>
+                                            <input type="text" class="form-control" id="Tahun_Kata" name="Tahun_Kata" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tanggal_Berlaku:</label>
+                                            <input type="text" class="form-control" id="Tanggal_Berlaku" name="Tanggal_Berlaku" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tanggal_Berlaku_Kata:</label>
+                                            <input type="text" class="form-control" id="Tanggal_Berlaku_Kata" name="Tanggal_Berlaku_Kata" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoSPPBJ:</label>
+                                            <input type="text" class="form-control" id="NoSPPBJ" name="NoSPPBJ" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Tanggal_SPPBJ:</label>
+                                            <input type="text" class="form-control" id="Tanggal_SPPBJ" name="Tanggal_SPPBJ" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Direksi_Pekerjaan:</label>
+                                            <input type="text" class="form-control" id="Direksi_Pekerjaan" name="Direksi_Pekerjaan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Pengawas_Pekerjaan:</label>
+                                            <input type="text" class="form-control" id="Pengawas_Pekerjaan" name="Pengawas_Pekerjaan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Nama_Perusahaan:</label>
+                                            <input type="text" class="form-control" id="Nama_Perusahaan" name="Nama_Perusahaan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Alamat_Perusahaan:</label>
+                                            <input type="text" class="form-control" id="Alamat_Perusahaan" name="Alamat_Perusahaan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Alamat_Email:</label>
+                                            <input type="text" class="form-control" id="Alamat_Email" name="Alamat_Email" >
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">Direktur:</label>
@@ -194,32 +287,71 @@ include './layout/header.php';
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">NoRekening:</label>
-                                            <input type="text" class="form-control" id="NoRekening" name="NoRekening"
-                                                >
+                                            <input type="text" class="form-control" id="NoRekening" name="NoRekening" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Bank:</label>
+                                            <input type="text" class="form-control" id="Bank" name="Bank" >
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">Kantor_Bank:</label>
                                             <input type="text" class="form-control" id="Kantor_Bank" name="Kantor_Bank" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">Atas_Nama:</label>
-                                            <input type="text" class="form-control" id="Atas_Nama" name="Atas_Nama" >
+                                            <label for="judul">Atas_Nama_Bank:</label>
+                                            <input type="text" class="form-control" id="Atas_Nama_Bank" name="Atas_Nama_Bank" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoFax:</label>
+                                            <input type="text" class="form-control" id="NoFax" name="NoFax" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoTelp:</label>
+                                            <input type="text" class="form-control" id="NoTelp" name="NoTelp" >
                                         </div>
                                         <div class="form-group">
                                             <label for="judul">Ket_Akta_Pendirian:</label>
                                             <input type="text" class="form-control" id="Ket_Akta_Pendirian" name="Ket_Akta_Pendirian" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">NoDPT:</label>
-                                            <input type="text" class="form-control" id="NoDPT" name="NoDPT" >
+                                            <label for="judul">NoSurat_Negosiasi:</label>
+                                            <input type="text" class="form-control" id="NoSurat_Negosiasi" name="NoSurat_Negosiasi" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">NoSAPV:</label>
-                                            <input type="number" class="form-control" id="NoSAPV" name="NoSAPV" >
+                                            <label for="judul">Harga_Negosiasi:</label>
+                                            <input type="text" class="form-control" id="Harga_Negosiasi" name="Harga_Negosiasi" >
                                         </div>
                                         <div class="form-group">
-                                            <label for="judul">NoNPWP:</label>
-                                            <input type="text" class="form-control" id="NoNPWP" name="NoNPWP" >
+                                            <label for="judul">Terbilang:</label>
+                                            <input type="text" class="form-control" id="Terbilang" name="Terbilang" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">MUP3Kediri:</label>
+                                            <input type="text" class="form-control" id="MUP3Kediri" name="MUP3Kediri" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Jabatan:</label>
+                                            <input type="text" class="form-control" id="Jabatan" name="Jabatan" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoSK1:</label>
+                                            <input type="text" class="form-control" id="NoSK1" name="NoSK1" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">TglSK1:</label>
+                                            <input type="text" class="form-control" id="TglSK1" name="TglSK1" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">NoSK2:</label>
+                                            <input type="text" class="form-control" id="NoSK2" name="NoSK2" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">TglSK2:</label>
+                                            <input type="text" class="form-control" id="TglSK2" name="TglSK2" >
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="judul">Lokasi_Pekerjaan	:</label>
+                                            <input type="text" class="form-control" id="Lokasi_Pekerjaan" name="Lokasi_Pekerjaan" >
                                         </div>
 
                                         <button type="submit" class="btn btn-primary">Submit</button>
