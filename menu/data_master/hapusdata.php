@@ -7,14 +7,14 @@ use database\koneksi;
 
 
 // hapus data pengungjung
-$id = $_GET['id_vendor'];
-$sql = "DELETE FROM t_vendor WHERE id_vendor = $id";
+$id = $_GET['id_master'];
+$sql = "DELETE FROM t_data WHERE id_master = $id";
 $koneksi = new koneksi();
 $koneksi->query($sql);
 
 if ($koneksi) {
-    header("location:vendor.php");
+    header("location:data_master.php");
 } else {
     // Notification Using Script
-    echo "<script>alert('Data Gagal Diupdate');window.location='vendor.php';</script>";
+    echo "<script>alert('Data Gagal Diupdate');window.location='data_master.php';</script>";
 }
