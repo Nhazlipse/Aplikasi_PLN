@@ -134,7 +134,7 @@ aria-expanded="true" aria-controls="collapseTwo">
 
             <!-- Tombol Tambah Data -->
             <div class="tambahdata">
-                <a href="tambah_data_pinjaman.php" class="btn btn-primary">Tambah Data</a><br><br>
+                <a href="tambah.php" class="btn btn-primary">Tambah Data</a><br><br>
                 </div>
                 <!-- buat kolom -->
                             <div class="table-responsive">

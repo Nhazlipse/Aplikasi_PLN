@@ -102,10 +102,7 @@ include './layout/header.php';
                         <i class="fa fa-bars"></i>
                     </button>
 
-                    <form
-                        class="d-none d-sm-inline-block form-inline mr-auto ml-md-0 my-2 my-md-0 mw-100 navbar-search">
-                        <img src="assets/img/dash.png" width="33%" style="margin-left:5px;">
-                    </form>
+
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -151,10 +148,10 @@ include './layout/header.php';
 
                     <!-- Data Pengunjung -->
                     <div class="container">
-                        <div class="card shadow mb-4">
-                            <div class="card-header py-3 text-center">
-                            <img src="../../assets/img/tambahpinjam.png"style="width:35%;">
-                            </div>
+                    <div class="card shadow mb-4">
+        <div class="card-header py-3 text-center">
+            <img src="../../assets/img/vend.png"style="width:17%;">
+        </div>
 
                             <!-- card body -->
                             <div class="card-body">
